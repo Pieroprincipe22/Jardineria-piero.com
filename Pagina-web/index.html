@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio - Jardinería Lycet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Jardinería</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="registro.html">Regístrate</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#servicios">Servicios</a></li> <li><a href="#contacto-nuevo">Contacto</a></li> </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-slider">
+      <div class="slider-item active">
+        
+        <div class="hero-content">
+          <h1>Bienvenido a Jardinería-Lycet</h1>
+          <p>Arreglos, mantenimiento y decoraciones para tu jardín</p>
+          <a href="#contacto-nuevo" class="btn">Contáctanos</a>
+        </div>
+      </div>
+      <div class="slider-item">
+        <img src="imagenes/imagen3.jpg" alt="Paisajismo moderno" />
+        <div class="hero-content">
+          <h1>Diseñamos el Jardín de tus Sueños</h1>
+          <p>Experiencia y creatividad para cada rincón verde</p>
+          <a href="#servicios" class="btn">Nuestros Servicios</a>
+        </div>
+      </div>
+      <div class="slider-item">
+        <img src="imagenes/imagen4.jpg" alt="Mantenimiento de plantas" />
+        <div class="hero-content">
+          <h1>Cuidado Experto para tus Plantas</h1>
+          <p>Mantenimiento integral para la salud y belleza de tu jardín</p>
+          <a href="#contacto-nuevo" class="btn">Solicita un Presupuesto</a>
+        </div>
+      </div>
+       <div class="slider-item">
+        <img src="imagenes/imagen5.jpg" alt="Decoración floral" />
+        <div class="hero-content">
+          <h1>Decoración Floral Exquisita</h1>
+          <p>Añade un toque de color y elegancia a tus espacios</p>
+          <a href="#galeria" class="btn">Ver Galería</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-nav">
+      <span class="dot active" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+      <span class="dot" data-slide="3"></span>
+    </div>
+  </section>
+
+  <section id="galeria" class="seccion">
+    <h2>Nuestra Galería de Proyectos</h2>
+    </section>
+
+  <section id="servicios" class="seccion">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios-grid">
+      <div class="servicio-item">
+        <img src="imagenes/servicio-diseno.jpg" alt="Icono Diseño" /> <h3>Diseño de Jardines</h3>
+        <p>Planificación y creación de espacios verdes únicos y personalizados.</p>
+      </div>
+      <div class="servicio-item">
+        <img src="imagenes/servicio-mantenimiento.jpg" alt="Icono Mantenimiento" />
+        <h3>Mantenimiento Completo</h3>
+        <p>Poda, riego, fertilización y control de plagas para un jardín saludable.</p>
+      </div>
+      <div class="servicio-item">
+        <img src="imagenes/servicio-decoracion.jpg" alt="Icono Decoracion" />
+        <h3>Decoración y Paisajismo</h3>
+        <p>Elementos decorativos y paisajísticos que realzan la belleza natural.</p>
+      </div>
+      <div class="servicio-item">
+        <img src="imagenes/servicio-riego.jpg" alt="Icono Riego" />
+        <h3>Sistemas de Riego</h3>
+        <p>Instalación y optimización de sistemas de riego eficientes.</p>
+      </div>
+    </div>
+  </section>
+        #Parte de nuesto registro 
+  <section id="contacto" class="seccion">
+    <h2>Contáctanos</h2>
+    <form action="https://formspree.io/f/xrbkzwnk" method="POST" class="formulario-contacto-formspree">
+      <label for="nombre-contacto">Tu Nombre:</label>
+      <input type="text" id="nombre-contacto" name="nombre" placeholder="Tu nombre" required />
+
+      <label for="correo-contacto">Tu Correo:</label>
+      <input type="email" id="correo-contacto" name="email" placeholder="Tu correo electrónico" required />
+
+      <label for="mensaje-contacto">Tu Mensaje:</label>
+      <textarea id="mensaje-contacto" name="message" placeholder="Escribe tu mensaje aquí" required rows="5"></textarea>
+
+      <button type="submit">Enviar Mensaje</button>
+      <p id="mensaje-envio" class="mensaje-formulario"></p>
+    </form>
+  </section>
+
+  <footer>
+    </footer>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h3>Jardinería-Lycet</h3>
+        <p>Transformamos tus espacios exteriores en obras de arte vivientes. Pasión, profesionalismo y sostenibilidad en cada proyecto.</p>
+        <div class="socials">
+          <a href="#"><img src="imagenes/icon-facebook.png" alt="Facebook" class="social-icon"></a> <a href="#"><img src="imagenes/icon-instagram.png" alt="Instagram" class="social-icon"></a>
+          <a href="#"><img src="imagenes/icon-twitter.png" alt="Twitter" class="social-icon"></a>
+        </div>
+      </div>
+      <div class="footer-section links">
+        <h3>Enlaces Rápidos</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="registro.html">Regístrate</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact-info" id="contacto-nuevo">
+        <h3>Contacto</h3>
+        <p><i class="fa fa-map-marker"></i> Dirección: Calle Ficticia 123, Ciudad, País</p>
+        <p><i class="fa fa-phone"></i> Teléfono: +123 456 7890</p>
+        <p><i class="fa fa-envelope"></i> Email: info@jardinerialycet.com</p>
+        <form class="footer-contact-form">
+          <input type="email" placeholder="Tu correo para novedades" required>
+          <button type="submit">Suscribirme</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Jardinería-Lycet. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
